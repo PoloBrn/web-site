@@ -6,6 +6,7 @@ body
     display: flex;
     flex-direction: column;
     margin: 0;
+    border-bottom: 1px solid black;
 }
 
 html
@@ -14,7 +15,7 @@ html
     font-family: 'Itim', cursive;
 }
 
-.Titre
+.Titre, body h1
 {
     text-align: center;
 }
@@ -85,13 +86,28 @@ div
     text-align: center;
 }
 
+div h1
+{
+    color: black;
+}
+
 .QuiSuisJe
 {
-    
+    border-bottom: 1px solid black;
 }
 
 .Competences
 {
-
+    text-align: justify;
+    border-bottom: 1px solid black;
 }
 
+.ExperiencesPro
+{
+    border-bottom: 1px solid black;
+}
+
+.Formation
+{
+    border-bottom: 1px solid black;
+}
