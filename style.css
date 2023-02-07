@@ -69,10 +69,33 @@ div h1 {
     color: black;
 }
 
+.ExperiencesPro {
+    background-color: #9AE2E9;
+}
+
+.Formation {
+    background-color: #9AC2E9;
+}
+
 .CESI {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.DEUA {
+    width: 33.333333333%;
+    background-color: #9AC2C9;
+}
+
+.UNA {
+    width: 33.333333333%;
+    background-color: #9DC7C1;
+}
+
+.lycee {
+    width: 33.333333333%;
+    background-color: #9AC2C9;
 }
 
 .CL {
@@ -81,3 +104,6 @@ div h1 {
     justify-content: space-around;
 }
 
+.Coordonnees {
+    background-color: #9AA9A9;
+}
