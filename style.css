@@ -70,7 +70,7 @@ div h1 {
 }
 
 .ExperiencesPro {
-    background-color: #9AE2E9;
+    background-color: #9AA2E1;
 }
 
 .Formation {
@@ -102,6 +102,24 @@ div h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.Competences {
+    width: 33.333333333%;
+    background-color: #759FDC;
+    text-align: left;
+}
+
+.Langues {
+    width: 33.333333333%;
+    background-color: #979FFA;
+    text-align: left;
+}
+
+.Logiciels {
+    width: 33.333333333%;
+    background-color: #919DAA;
+    text-align: left;
 }
 
 .Coordonnees {
