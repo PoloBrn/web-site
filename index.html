@@ -1,157 +1,139 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 
 <head>
-    <title> Paul Bréon </title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil site Paul Bréon</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <header class="header">
-        <main class="Titre">
-            <h1>Paul Bréon</h1>
-            <p>Bienvenue dans ce site internet créer par mes soins</p>
-        </main>
-        <img src="dl-files/Image1.png" alt="">
+    <header style="background-image: url('dl-files/Moi-VR.jpg');">
+        <div class="header-overlay">
+            <h1>Bréon Paul</h1>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">À Propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="buttons">
+                <a href="dl-files/CV Paul Bréon.pdf" class="btn-cv">Mon CV</a>
+                <a href="https://github.com/PoloBrn" class="btn-github">GitHub</a>
+                <a href="https://www.linkedin.com/in/paul-br%C3%A9on-b7a083257/" class="btn-linkedin">LinkedIn</a>
+            </div>
+        </div>
     </header>
 
-    <nav>
-        <div class="Links">
-            <a href="dl-files/CV Paul Bréon.pdf">Mon CV</a>
-            <a href="https://www.linkedin.com/in/paul-br%C3%A9on-b7a083257/">Linkedin</a>
-            <a href="dl-files/jeu3D2D">Projet jeu vidéo 2D / 3D <span class="italique">(environ 5Go)</span></a>
-            <a href="#QuiSuisJe">Qui suis-je ?</a>
-            <a href="#ExperiencesPro">Expériences Professionnelle</a>
-            <a href="#Formation">Formation</a>
-            <a href="#CL">Compétences, Langues & Logiciels</a>
-            <a href="#Coordonnees">Coordonnées</a>
+    <section id="accueil">
+        <div>
+            <h2>Bienvenue sur mon site professionnel</h2>
+            <p>Je suis ravi de vous accueillir ici. Je m'appelle Paul Bréon et je suis étudiant en école d'ingénieur
+                informatique au CESI de Rouen. Ce site a été conçu pour vous présenter mon parcours, mes compétences et
+                mes passions dans le domaine de l'informatique et au-delà.</p>
+            <p>Ce site est également l'occasion de partager mes réflexions sur les nouvelles technologies, comme
+                l'intelligence artificielle (IA) ou le développement de jeux vidéo qui représente des domaines qui me
+                fascine et qui suscite mon
+                enthousiasme pour les possibilités futures.</p>
+            <p>Je vous invite à explorer les différentes sections de mon site pour en savoir plus sur mon parcours
+                professionnel, mes compétences techniques, mes projets passés et futurs, ainsi que mes autres intérêts.
+                N'hésitez pas à me contacter si vous souhaitez échanger ou collaborer sur des projets innovants.</p>
+            <p>Je vous remercie de votre visite et je vous souhaite une excellente découverte de mon univers numérique !
+            </p>
         </div>
-    </nav>
-    <div class="QuiSuisJe" id="QuiSuisJe">
-        <h1>Qui suis-je ?</h1>
-        <p>Je m'appelle Paul Bréon je suis actuellement étudiant <span class="italique"> au CESI école
-                d'ingénieur</span>, lors de mon cursus j'ai acquis de nombreuses compétences que ce soit en gestion de
-            projet tout comme dans divers langages de programmation.</p>
-        <p>Grand fan de musique, je suis percussionniste, batteur mais aussi chef d'orchestre dans <span
-                class="italique"> l'Orchestre Junior de Criquetot L'Esneval</span> ainsi que référent percussionnistes
-            dans <span class="italique">l'Orchestre Harmonique de Criquetot L'Esneval</span> .</p>
-    </div>
-    <div class="ExperiencesPro" id="ExperiencesPro">
-        <h1>Expériences Professionnelle</h1>
-        <p>Stage de 4mois du 3 avril 2023 au 28 juillet 2023 au Laboratoire de recherche du CESI dans le but de
-            concevoir un outils pédagogique en réalité virtuelle pour les 4ème années informatique.</p>
-        <p>Travail Intermarché juillet-août 2022, découverte industrie agroalimentaire</p>
-        <p>Stage ORTEC environnement 2019, découverte métier ingénieur en cybersécurité.</p>
-        <p>Stage Renault 2018, découverte métiers production.</p>
-    </div>
-    <div class="Formation" id="Formation">
-        <h1>Formation</h1>
-        <div class="CESI">
-            <div class="DEUA">
-                <h2>CESI 2ème année</h2>
-                <h3>Électronique et composants</h3>
-                <p>Lors de ce projet, j'ai appris tout d'abord à utilisé l'OS <strong>Linux</strong>, plus précisement
-                    BodyLinux
-                    avec l'utilisation du terminal sous Linux. Ensuite j'ai travaillé sur la priorisation du courant
-                    électrique
-                    avec divers composants, leur gestion ainsi que leur configurations via terminal et
-                    PlatformIO.</p>
-                <h3>Programmation Orientée Objet</h3>
-                <p>Lors de ce projet, j'ai appris le fonctionnement en <strong>C++</strong> de classes et de leurs
-                    attributs
-                    avec la notion d'héritage. Ensuite j'ai travaillé sur le <strong>C++/CLI</strong> qui permet la
-                    création
-                    d'interface graphique.</p>
-                <h3>Réseau</h3>
-                <p>Lors de ce projet, j'ai vu les notions de réseau de base en gérant l'adressage d'une maquette en IPV4
-                    et IPV6.</p>
-                <h3>Développement Web</h3>
-                <p>Lors de ce projet, j'ai dévouvert le fonctionnement du web qui est le plus grand réseau du monde, les
-                    différents langages associés et il m'a permis de créer ce site.</p>
-            </div>
-            <div class="UNA">
-                <h2>CESI 1ère année</h2>
-                <h3>Électronique</h3>
-                <p>Lors de ce projet, j'ai eu une première approche sur ce qu'est l'électronique la gestion de
-                    composants à travers les transistors et les resistances.</p>
-                <h3>Ondes et signaux</h3>
-                <p>Lors de ce projet, j'ai revu le fonctionnement des ondes électromagnétiques ainsi que les ondes dans
-                    leur globalités afin de comprendre comment deux ordinateurs communiquent entre eux ainsi que les
-                    signaux.</p>
-                <h3>Mécanique</h3>
-                <p>Lors de ce projet, j'ai revnu les notions de mouvement avec leurs équations ou encore la première et
-                    la deuxième loi de Newton tout en impliquant un changement de repère avec les repères orthogonaux et
-                    de Frenet.</p>
-                <h3>Industrie</h3>
-                <p>Lors de ce projet, j'ai étudié comment se gère une chaîne de production, comment gérer les deadlines
-                    de temps donc énormément de gestion de projet.</p>
-                <h3>Base de donnée</h3>
-                <p>Lors de ce projet, j'ai eu une première approche de ce qu'est une base de donnée, son fonctionnement
-                    et sa gestion ainsi que diverses normes associés tel que le faite qu'il ne doit jamais y avoir deux
-                    fois la même information qui se répète.</p>
-                <h3>BTP</h3>
-                <p>Lors de ce projet, j'ai étudié les équations de déformées de poutres ainsi que des notions de
-                    thermodynamique.</p>
-            </div>
-            <div class="Lycee">
-                <h2>Lycée</h2>
-                <ul>
-                    <p>Terminale avec spécialité :</p>
-                    <li>Mathématiques</li>
-                    <li>Physique-Chimie</li>
-                    <li>Option Mathématiques Expert</li>
-                </ul>
-                <ul>
-                    <p>Première avec spécialité :</p>
-                    <li>Mathématiques</li>
-                    <li>Physique-Chimie</li>
-                    <li>Sciences Vie de la Terre</li>
-                </ul>
-            </div>
+    </section>
+    <div class="separator"></div>
+
+    <section id="apropos">
+        <div>
+            <h2>À Propos de Moi</h2>
+            <p>Je suis Paul Bréon, un étudiant en école d'ingénieur informatique au CESI de Rouen. Actuellement en
+                alternance au sein du laboratoire de recherche du CESI LINEACT, je me spécialise dans les domaines
+                passionnants de la réalité virtuelle et augmentée. Grâce à cette expérience, j'ai développé de
+                nombreuses compétences en informatique, notamment dans le développement en général, la programmation
+                orientée objet (POO) ainsi que dans le domaine des réseaux.</p>
+
+            <p> dehors de ma passion pour l'informatique, je suis un fervent musicien impliqué au sein de la Société
+                Musicale de Criquetot l'Esneval. En tant que batteur et chef d'orchestre pour l'orchestre des jeunes, la
+                musique occupe une place très spéciale dans ma vie.</p>
+
+            <p>Mon enthousiasme pour l'informatique va de pair avec mon intérêt pour les nouvelles technologies, comme
+                l'intelligence artificielle (IA) ou le développement de jeux vidéo (j'utilise le moteur Unity). J'aime
+                explorer les possibilités fascinantes offertes par ces avancées technologiques qui façonnent notre
+                avenir.</p>
+
+            <p>Je suis constamment à la recherche de nouvelles opportunités d'apprendre, de grandir professionnellement
+                et de contribuer positivement à l'innovation technologique. N'hésitez pas à me contacter si vous
+                souhaitez en savoir plus sur mes projets, mon parcours ou discuter de collaborations potentielles.</p>
+
+            <p>Au plaisir de vous rencontrer virtuellement ou en personne pour partager nos passions communes !</p>
         </div>
-    </div>
-    <div class="CL" id="CL">
-        <div class="Competences">
-            <h1>Compétences</h1>
+    </section>
+    <div class="separator"></div>
+
+    <section id="competences">
+        <div>
+            <h2>Compétences</h2>
             <ul>
+                <li>Programmation Orientée Objet</li>
                 <li>C#</li>
                 <li>Unity</li>
-                <li>C++</li>
-                <li>C Arduino</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Python</li>
-                <li>SQL</li>
-            </ul>
-        </div>
-        <div class="Langues">
-            <h1>Langues</h1>
-            <ul>
+                <li>Réalité Augmentée</li>
+                <li>Réalité Virtuelle</li>
+                <li>GitHub</li>
+                <li>Travail d'équipe</li>
+                <li>Production de jeux vidéos</li>
+                <li>ROS</li>
+                <li>Docker</li>
+                <li>Communication</li>
+                <li>Gestion de projet</li>
                 <li>Anglais</li>
                 <li>Français</li>
                 <li>Espagnol</li>
                 <li>Allemand</li>
+                <li>Outils Microsoft</li>
+                <li>Windows</li>
+                <li>Linux</li>
+                <li>Résolution de problèmes</li>
+                <li>C++</li>
+                <li>Ingénieurie</li>
+                <li>Python</li>
+                <li>PHP, HTML, CSS, JavaScript</li>
+                <li>SQL</li>
             </ul>
         </div>
-        <div class="Logiciels" id="Logiciels">
-            <h1>Logiciels</h1>
-            <ul>
-                <li>Visual Studio</li>
-                <li>Visual Studio Code</li>
-                <li>Pack Office</li>
-                <li>Unity</li>
-                <li>Notion</li>
-                <li>Github</li>
-            </ul>
+    </section>
+    <div class="separator"></div>
+
+    <section id="projets">
+        <div>
+            <h2>Projets Réalisés</h2>
+            <p>Vous pourrez trouver certains de mes projets sur mon Github personnel.</p>
+            <h3>1ère année au CESI</h3>
+
+            <h3>2ème année au CESI</h3>
+
         </div>
-    </div>
-    <div class="Coordonnees" id="Coordonnees">
-        <h1> Mes coordonnées</h1>
-        <p> Téléphone : 07 78 32 07 54</p>
-        <p>mail : paul.breon@viacesi.fr</p>
-        <p>Réside à : 34 Rue Saint-Maur, Rouen 76 000</p>
-    </div>
+    </section>
+    <div class="separator"></div>
+
+    <section id="contact">
+        <div>
+            <h2>Contact</h2>
+            <p>Donne aux visiteurs un moyen de te contacter, que ce soit par e-mail, téléphone ou formulaire de contact.
+            </p>
+        </div>
+    </section>
+    <div class="separator"></div>
+
+    <footer>
+        <p>Droit d'auteur © 2023 Bréon Paul</p>
+    </footer>
 </body>
+<script src="script.js"></script>
 
 </html>
