@@ -16,11 +16,9 @@ body {
 
 header {
     position: relative;
-    /* Permet d'utiliser la position absolue dans l'en-tête */
     background-size: cover;
     background-position: center;
     height: 400px;
-    /* Ajuste la hauteur selon ton choix */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +31,6 @@ header {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    /* Modifier la valeur d'opacité ici (0.5 = 50% d'opacité) */
     text-align: center;
     color: #fff;
 }
@@ -141,4 +138,11 @@ footer {
     height: auto;
     border-radius: 5px;
     /* Optionnel : ajoute une bordure arrondie à l'image */
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
