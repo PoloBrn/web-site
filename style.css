@@ -12,6 +12,7 @@ li {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #e3e2e2;
 }
 
 header {
@@ -139,7 +140,7 @@ footer {
     border-radius: 5px;
 }
 
-#contact{
+#contact {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,3 +156,37 @@ video {
     height: auto;
     border-radius: 5px;
 }
+
+/* Mise en page responsive */
+
+/* Écran de largeur maximale de 768px (typiquement pour les smartphones en mode portrait) */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .image,
+    .imageCenter {
+        padding: 10px;
+    }
+}
+
+/* Écran de largeur maximale de 1200px */
+@media screen and (max-width: 1200px) {
+    section {
+        padding: 1rem;
+    }
+}
+
+/* Écran de largeur minimale de 1600px */
+@media screen and (min-width: 1600px) {
+    section {
+        padding: 3rem;
+    }
+}
+
+/* Ajouter d'autres médias queries pour adapter le contenu selon les besoins */
