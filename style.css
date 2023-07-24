@@ -137,7 +137,6 @@ footer {
     max-width: 100px;
     height: auto;
     border-radius: 5px;
-    /* Optionnel : ajoute une bordure arrondie à l'image */
 }
 
 #contact{
@@ -145,4 +144,14 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+video {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
