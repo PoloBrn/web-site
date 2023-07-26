@@ -171,10 +171,6 @@ video {
     .imageCenter {
         padding: 10px;
     }
-    /* Masquer les éléments qui utilisent le script JS */
-    body {
-        display: none;
-    }
 }
 
 /* Écran de largeur maximale de 1200px */
