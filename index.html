@@ -1,394 +1,142 @@
 <!DOCTYPE html>
-<html lang="fr">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Web de Paul Bréon</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <script src="script.js"></script>
-    <link rel="icon" type="image/png" href="dl-files/215Games.png">
+    <link rel="shortcut icon" href="/dl-files/BackgroundV1.webp" type="image/x-icon">
+    <title>Paul BREON Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header style="background-image: url('dl-files/Moi-VR.jpg');">
-        <div class="header-overlay">
-            <h1>Bréon Paul</h1>
-            <h2>Étudiant en école d'ingénieur Informatique CESI</h2>
-            <h3>Passionné de Musique et nouvelles technologies</h3>
-            <nav>
-                <ul>
-                    <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#apropos">À Propos</a></li>
-                    <li><a href="#competences">Compétences</a></li>
-                    <li><a href="#projets">Projets</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="buttons">
-                <a href="dl-files/CV Paul Bréon.pdf" class="btn-cv">Mon CV</a>
-                <a href="https://github.com/PoloBrn" class="btn-github">GitHub</a>
-                <a href="https://www.linkedin.com/in/paul-br%C3%A9on-b7a083257/" class="btn-linkedin">LinkedIn</a>
-            </div>
-        </div>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="/dl-files/CV_PAUL_BREON.pdf">CV</a></li>
+                <li><a href="https://github.com/PoloBrn">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/paul-br%C3%A9on-b7a083257">LinkedIn</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="accueil">
-        <div class="container">
-            <div class="content">
-                <h2 style="text-align: center;">Bienvenue dans mon univers virtuel</h2>
-                <p>Je suis ravi de vous accueillir ici. Je m'appelle Paul Bréon et je suis étudiant en école
-                    d'ingénieurs
-                    informatique au CESI de Rouen. Ce site est conçu pour vous présenter mon parcours, mes compétences
-                    et
-                    mes passions dans le domaine de l'informatique et au-delà.</p>
-                <p>Ce site est également l'occasion de partager mes réflexions sur les nouvelles technologies, comme
-                    l'intelligence artificielle (IA) ou le développement de jeux vidéo qui représentent des domaines qui
-                    me
-                    fascinent et qui suscitent mon
-                    enthousiasme pour les possibilités futures.</p>
-                <p>Je vous invite à explorer les différentes sections de mon site pour en savoir plus sur mon parcours
-                    professionnel, mes compétences techniques, mes projets passés et futurs, ainsi que mes autres
-                    intérêts.
-                    N'hésitez pas à me contacter si vous souhaitez échanger ou collaborer sur des projets innovants.</p>
-                <p>Je vous remercie de votre visite et je vous souhaite une excellente découverte de mon univers
-                    numérique !</p>
-            </div>
-            <div class="image">
-                <img src="dl-files/Moi.jpg" alt="présentation">
-            </div>
-        </div>
-    </section>
-    <div class="separator"></div>
-
-    <section id="apropos">
-        <div class="container">
-            <div class="content">
-                <h2 style="text-align: center;">À Propos de Moi</h2>
-                <p>Je suis Paul Bréon, un étudiant en école d'ingénieurs informatique au CESI de Rouen. Actuellement en
-                    alternance au sein du laboratoire de recherche du CESI LINEACT, je me spécialise dans les domaines
-                    passionnants de la réalité virtuelle et augmentée. Grâce à cette expérience, j'ai développé de
-                    nombreuses compétences en informatique, notamment dans le développement, la programmation
-                    orientée objet (POO) ainsi que dans le domaine des réseaux.</p>
-
-                <p>En dehors de ma passion pour l'informatique, je suis un fervent musicien impliqué au sein de la
-                    Société
-                    Musicale de Criquetot l'Esneval. En tant que batteur et chef d'orchestre pour l'orchestre des
-                    jeunes, la
-                    musique occupe une place très spéciale dans ma vie.</p>
-
-                <p>Mon enthousiasme pour l'informatique va de pair avec mon intérêt pour les nouvelles technologies,
-                    comme
-                    l'intelligence artificielle (IA) ou le développement de jeux vidéo (j'utilise le moteur Unity).
-                    J'aime
-                    explorer les possibilités fascinantes offertes par ces avancées technologiques qui façonnent notre
-                    avenir.</p>
-
-                <p>Je suis constamment à la recherche de nouvelles opportunités d'apprendre, de grandir
-                    professionnellement
-                    et de contribuer positivement à l'innovation technologique.</p>
-
-                <p>Au plaisir de vous rencontrer virtuellement ou en personne pour partager nos passions communes !</p>
-            </div>
-            <div class="image">
-                <img src="dl-files/Batterie.jpg" alt="Batterie_à_propos">
-            </div>
+    <!-- Home Section -->
+    <section id="home" class="section home">
+        <div class="content">
+            <h1>Hello, I'm Paul BREON</h1>
+            <p>Computer Science Master Student at CESI & Apprentice in a Reacherch Laboratory in CESI LINEACT.</p>
+            <p>Drummer and conductor.</p>
+            <p>Vice President for Community Life in the CESI Student Office.</p>
         </div>
     </section>
 
-    <div class="separator"></div>
-
-    <section id="projets">
-        <h2 style="text-align: center;">Projets Réalisés au CESI</h2>
-        <p style="text-align: center;">Vous pourrez trouver certains de mes projets sur mon Github personnel.</p>
-        <div class="container">
-            <div class="content" style="text-align: center;">
-                <h3>1ère année au CESI</h3>
-                <ul>
-                    <h4>Bloc Électronique</h4>
-                    <p>Au cours de cette première année, j'ai acquis des connaissances approfondies dans le domaine de
-                        l'électronique. J'ai étudié les composants électroniques de base tels que les résistances, les
-                        condensateurs, les transistors, ainsi que les circuits logiques et les microcontrôleurs. J'ai
-                        également appris à concevoir et à réaliser des circuits électroniques simples.</p>
-                    <h4>Bloc Onde et Signaux</h4>
-                    <p>Dans ce bloc, j'ai exploré les concepts fondamentaux des ondes et des signaux. J'ai compris les
-                        principes de la propagation des ondes électromagnétiques et des signaux analogiques et
-                        numériques. J'ai également étudié les différentes méthodes de traitement du signal.</p>
-                    <h4>Bloc Mécanique</h4>
-                    <p>Ce bloc m'a permis de développer une solide compréhension des principes de base de la mécanique.
-                        J'ai appris les lois du mouvement, les notions de statique et de dynamique, ainsi que les
-                        propriétés des matériaux. J'ai également eu l'occasion de mettre en pratique mes connaissances à
-                        travers des projets pratiques.</p>
-                    <h4>Bloc Industrie</h4>
-                    <p>Au sein de ce bloc, j'ai découvert le fonctionnement de l'industrie moderne. J'ai étudié les
-                        processus de production, la gestion de la chaîne d'approvisionnement, les normes de qualité,
-                        ainsi que les principes de gestion de projet. Cela m'a donné un aperçu global du monde
-                        industriel dans lequel j'allais évoluer en tant qu'ingénieur.</p>
-                    <h4>Bloc BTP</h4>
-                    <p>Dans ce bloc, j'ai exploré le secteur du bâtiment et des travaux publics. J'ai acquis des
-                        connaissances sur la conception architecturale, les matériaux de construction, les techniques de
-                        construction, ainsi que les aspects liés à la sécurité sur les chantiers ou encore les notions
-                        de Résistance des Matériaux et de Thermodynamique. Cela m'a ouvert de
-                        nouvelles perspectives sur les domaines d'application de l'ingénierie.</p>
-                </ul>
-            </div>
-            <div class="content" style="text-align: center;">
-                <h3 style="text-align: center;">2ème année au CESI</h3>
-                <ul>
-                    <h4>Bloc Électronique et systèmes embarqués</h4>
-                    <p>Poursuivant mon parcours, j'ai approfondi mes connaissances en électronique en me concentrant
-                        spécifiquement sur les systèmes embarqués. J'ai étudié la conception de systèmes électroniques
-                        complexes et leur intégration dans des appareils embarqués tels que les systèmes embarqués dans
-                        l'automobile, les dispositifs médicaux et bien d'autres.</p>
-                    <h4>Bloc Programmation Orientée Objet</h4>
-                    <p>Dans ce bloc, j'ai appris les principes de la programmation orientée objet (POO). J'ai développé
-                        des compétences en programmation dans le language C++ en mettant
-                        l'accent sur la modélisation des objets, l'héritage, l'encapsulation et le polymorphisme et la
-                        liaison à une base de données. Ces
-                        compétences sont essentielles pour la conception de logiciels et la résolution de problèmes
-                        informatiques.</p>
-                    <h4>Bloc Réseau</h4>
-                    <p>Ce bloc m'a permis de comprendre les réseaux informatiques, leur architecture, leur
-                        fonctionnement et leur sécurité. J'ai étudié les protocoles de communication, les commutateurs,
-                        les routeurs, ainsi que les concepts de virtualisation et de cloud computing.</p>
-                    <h4>Bloc Web</h4>
-                    <p>Dans ce dernier bloc, j'ai acquis des compétences en développement web. J'ai appris à concevoir
-                        des sites web interactifs en utilisant des technologies telles que HTML, CSS, JavaScript, et
-                        j'ai également étudié les bases de données et la gestion de l'information sur le web ainsi que
-                        la communication avec une base de données.</p>
-                </ul>
-            </div>
-        </div>
-        </div>
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>I'm a passionate computer science student pursuing my master's degree while working as an apprentice in a research lab. I enjoy solving problems and exploring innovative technologies.</p>
+        <p>Here's a brief timeline of my journey:</p>
+        <ul>
+            <li><strong>2021:</strong> Started my master's degree in computer science.</li>
+            <li><strong>2022:</strong> Choose the Computer Science.</li>
+            <li><strong>2023:</strong> Joined a research lab as an intern.</li>
+            <li><strong>2023:</strong> Joined a research lab as an apprentice.</li>
+            <li><strong>2024:</strong> Joined a research lab as an intern.</li>
+        </ul>
+        <p>I'm also a passionate about music! I've realized a lot of things as a musician:</p>
+        <ul>
+            <li><strong>2015:</strong> Integration in an association of music as a drummer</li>
+            <li><strong>2020:</strong> First diploma in drums after 10 years of practice.</li>
+            <li><strong>2023:</strong> First concert as a conductor in an association.</li>
+            <li><strong>2024:</strong> Participation as a conductor and drummer in an orchestra with professionals.</li>
+            <li><strong>2024:</strong> Start learning trombone.</li>
+        </ul>
     </section>
-    <div class="separator"></div>
 
-    <section id="projets">
-        <h2 style="text-align: center;">Projets Réalisés au CESI LINEACT</h2>
-        <p style="text-align: center;"></p>
-        <h3 style="text-align: center;">Stage de fin de 2ème année au laboratoire CESI LINEACT</h3>
-        <div class="container">
-            <div class="content" style="text-align: center;">
-                <ul>
-                    <p>Dans le cadre d'un projet au laboratoire LINEACT j'ai eu l'occasion de travailler sur le lien de
-                        robots réel dans un univers virtuel via l'éditeur de jeux Unity afin de simuler la réalité. En
-                        plus de récupérer des informations réelles virtuellement je transmets aussi des informations
-                        virtuelles au robots réel dans le but de faire de la réalité augmentée. Lors de ce stage j'ai
-                        en somme lié un univers réel à un
-                        univers virtuel et permis aux deux univers de communiquer en simultané dans le but de faire de
-                        la réalité augmentée.</p>
-                    <p>J'ai par conséquent eu la chance de pouvoir manier de nombreux outils tel que Docker, Unity,
-                        Ubuntu ainsi que de multiples languages de programmation tel que le C# et le python.</p>
-                </ul>
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <h2>Student projects</h2>
+        <div class="project-list">
+        <div class="project">
+            <h3>C++ project</h3>
+            <p>The objective is to create an app to edit a database with a graphical interface. <a href="https://github.com/eraflo/POO_Project">View on GitHub</a></p>
+        </div>
+            <div class="project">
+                <h3>C# project</h3>
+                <p>The objective is to recreate a folder explorer like the one in Windows using C# library.</p>
             </div>
-            <div class="image">
-                <img src="dl-files/Atelier-flexible-de-production_web-736x491.jpg" alt="CESI_LINEACT_présentation">
+            <div class="project">
+                <h3>Algorithm project</h3>
+                <p>The objective is to create a little like Google Maps with an algorithm.
+                    We also discover the Traveler's problem and try to solve it in python using ants algorithm for example.</p>
+            </div>
+            <div class="project">
+                <h3>Web project</h3>
+                <p>The main topic is to discover how does the web works with PHP, HTML, CSS, JavaScript. <a href="https://github.com/PoloBrn/WebProject">View on GitHub</a></p>
+            </div>
+            <div class="project">
+                <h3>Network project</h3>
+                <p>The objective is to understand how to configure IP adress and create LAN in a big network, how to securize it and how to manage it.</p>
             </div>
         </div>
     </section>
-    <div class="separator"></div>
-
-    <section id="projets">
-        <h2 style="text-align: center;">Projets Personnels</h2>
-        <p style="text-align: center;">Vous pourrez trouver certains de mes projets sur mon Github personnel.</p>
-        <p style="text-align: center;">215Games</p>
-        <p style="text-align: center;">(nom sous lequel je publie mes jeux vidéos)</p>
-        <div class="imageCenter">
-            <img src="dl-files/215Games.png" alt="215Games logo" style="max-width: 10%;">
+    <section id="projects" class="section projects">
+        <h2>Profesional projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>ROS Unity project</h3>
+                <p>A CESI LINEACT package to communicate directly with ROS and Unity in VR.
+                    It permit to make some more digital twin of robots and communicate with the real one directly.</p>
+            </div>
+            <div class="project">
+                <h3>Factory Design</h3>
+                <p>As part of the digital twin, these will allow to integrate scientific work in pedagogy to a large population of students through the project Automated System (also called Factory Design).
+                    The automated system project is a project for the fourth year in master degree generalist specialty and computer science specialty.
+                    The objective of this project is to automate the gluing process in a production line by proposing the physical installation of the production line.</p>
+            </div>
+            <div class="project">
+                <h3>LOOPER</h3>
+                <p>A CESI LINEACT project to generate human action's datasets in VR with multi point of view by using motion capture and creating a LINEACT data format.</p>
+            </div>
         </div>
-        <div class="container">
-            <div class="content" style="text-align: center;">
-                <h3>Dimension Game</h3>
-                <h4>Présentation</h4>
-                <p>Ce projet est un jeu de plateformes casse-tête qui joue sur la perspective entre plusieurs dimensions
-                    notamment la 2D et la 3D.</p>
-                <p>Ce projet m'a permis d'apprendre le développement en Programmation Orientée Objet puis de
-                    l'approfondir pas à pas tout en découvrant le moteur de jeu Unity.</p>
-                <h4>Fonctionnalités</h4>
-                <ul style="text-align: left;">
-                    <li>Changement d'un espace 2D à 3D et inversement.</li>
-                    <li>Déplacement du joueur</li>
-                    <li>Menu principal</li>
-                    <ul>
-                        <li>Gestion des paramètres de résolution</li>
-                        <li>Plein écran</li>
-                        <li>Choisir son niveau ou jouer les niveaux dans l'ordre</li>
-                        <li>Crédits</li>
-                        <ul>
-                            <li>Défilement du texte</li>
-                            <li>Mensions légales</li>
-                        </ul>
-                        <li>Quitter le jeu</li>
-                    </ul>
-                    <li>Interface de dialogues</li>
-                    <li>Interface d'interractions</li>
-                    <li>Menu Pause</li>
-                    <ul>
-                        <li>Gestion des paramètres de résolution</li>
-                        <li>Plein écran</li>
-                        <li>Accéder au menu principal</li>
-                    </ul>
-                </ul>
-                <h4>Visuel</h4>
+    </section>
+    </section>
+    <section id="projects" class="section projects">
+        <h2>Personnal projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>3 2 1 Dimension!</h3>
+                <p>A little 3D game that play with the perspective of the camera.</p>
                 <video controls autoplay loop>
                     <source src="dl-files/3 2 1 Dimensions ! 2023-07-22 12-45-32.mp4" type="video/mp4">
-                    Votre navigateur ne prend pas en charge la lecture de vidéos.
                 </video>
-
             </div>
-            <div class="content" style="text-align: center;">
-                <h3>VR Ping Pong</h3>
-                <h4>Présentation</h4>
-                <p>Ce projet est un jeu en réalité virtuelle qui permet de s'amuser à jouer au ping pong dans un univers
-                    virtuel.</p>
-                <p>Ce projet m'a permis d'approfondir mes compétences en réalité virtuelle comme en Unity et la gestion
-                    de ses différents packages mais aussi sur les interractions que peuvent avoir un joueur dans un
-                    espace virtuel.</p>
-                <h4>Fonctionnalités</h4>
-                <ul style="text-align: left;">
-                    <li>Lien avec un casque VR</li>
-                    <li>Simuler un casque VR</li>
-                    <li>Attraper une raquette par main</li>
-                    <li>Se téléporter</li>
-                    <li>Attraper la balle</li>
-                </ul>
-                <h4>Visuel</h4>
-                <div class="imageCenter">
-                    <img src="dl-files/MicrosoftTeams-image.png" alt="Rendu jeux VR" style="max-width: 100%;">
-                </div>
-            </div>
-        </div>
-        <p style="text-align: center;">Lors de ses deux projets j'ai appris aussi à faire mes propres recherches et à me
-            creuser la tête afin d'aller toujours plus loin, chercher des idées, des solutions aux multiples problèmes
-            auxquels j'ai été confrontés et toujours m'assurer de documenter ce que je fais y compris et surtout les
-            tests que je
-            faisais afin de ne plus refaire les mêmes erreurs à l'avenir et d'être certain d'avoir appris de
-            celles-ci.</p>
-        </div>
-    </section>
-    <div class="separator"></div>
-
-    <section class="Vie_assos">
-        <div class="content" style="text-align: center;">
-            <h2>Vie assiociative</h2>
-            <div class="container">
-                <div class="content" style="text-align: center;">
-                    <h3>CESI</h3>
-                    <div class="container" style="text-align: center;">
-                        <div class="content">
-                            <h4>Club de musique CEZIK'</h4>
-                            <p>Dans ce club assiociatif au CESI de Rouen, j'occupe le post de président depuis février
-                                2023.
-                                Depuis mon passage entant que président j'ai eu l'occasion de porter plusieurs projets
-                                notamment celui d'organiser un concert dans le CESI ou encore l'achat de nombreux
-                                instruments et matériels afin de produire des concerts avec davantage de qualité.</p>
-                            <p>Ce club est une véritable expression de ma passion pour la musique et un moyen de la
-                                partager
-                                ou de faire découvrir cette passion à d'autres curieux voulant découvrir cet univers.
-                                C'est
-                                plus qu'un moyen de s'exprimer c'est un moyen de partager et apprendre avec d'autres
-                                personnes ce qui est dans l'esprit du CESI mais aussi dans celui de la musique.</p>
-                        </div>
-                        <div class="content">
-                            <div class="imageCenter">
-                                <img src="dl-files/Concert.png" alt="Concert_au_CESI" style="max-width: 100%;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content" style="text-align: center;">
-                        <div class="container">
-                            <div class="content">
-                                <h4>Club Robotique CER (CESI Experimental Robotics)</h4>
-                                <p>Dans ce club assiociatif au CESI de Rouen j'ai eu l'occasion de travailler sur le
-                                    projet
-                                    CRB-1
-                                    (CESI ROLL BOT) qui porte sur la construction, création et gestion du financement du
-                                    robot
-                                    de l'univers Star Wars BB-8.</p>
-                                <p>Ce projet m'a permis de comprendre le fonctionnement d'un robot, la communication
-                                    entre
-                                    ses
-                                    différents moteurs ou composants, la gestion de la mécanique pour que la sphère
-                                    tourne
-                                    en
-                                    maintenant l'intérieur en place tout en maintenant aussi la tête du robot.</p>
-                                <p>J'ai aussi découvert le domaine de la synthèse additive (en d'autres termes
-                                    l'impression-3D)
-                                    qui nous a permis de concevoir à partir de modèles existants une coque et une tête
-                                    pour
-                                    notre robot.</p>
-                            </div>
-                            <div class="content">
-                                <div class="imageCenter">
-                                    <img src="dl-files/crb-1.jpg" alt="CRB-1" style="max-width: 100%;">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="content" style="text-align: center;">
-                    <h3>En dehors du CESI</h3>
-                    <div class="content" style="text-align: center;">
-                        <h4>Société Musicale de Criquetot L'Esneval</h4>
-                        <p>Ayant été élève dans cette association en 2008 et ce jusqu'en 2021, j'ai appris a jouer de la
-                            batterie puis
-                            l'ensemble des percussions ainsi que de nombreuses notions de solfège. Ensuite je suis
-                            rentré entant que percussionniste en 2010 dans l'orchestre Junior, puis dans l'orchestre
-                            harmonique en 2014 et suis passé par la suite référent batteur dans l'orchestre Junior en
-                            2017 puis dans l'orchestre harmonique en 2019. Ainsi j'ai pu acquérir de nombreuses
-                            compétences en matière musicale comme dans la communication ainsi que dans la gestion.</p>
-                        <p>Ce n'est pas tout, depuis Janvier 2023 je suis passé chef d'orchestre à l'orchestre Junior et
-                            ai effectué mon premier concert 4mois plus tard. J'ai par conséquent développé des
-                            compétences comme l'écoute, l'attention, la rigueur mais aussi la précision la gestion du
-                            temps et surtout la gestion du stresse. En effet être chef d'orchestre est une grande
-                            opportunité musicale comme humaine car elle me permet de faire beaucoup de rencontre
-                            d'acquérir de nombreuses compétences, de les parfaires et d'être chaque jour plus fort.
-                            Grâce à ça, j'ai eu l'opportunité en Août 2023 de diriger un orchestre regroupant les plus
-                            grandes associations musicales de la région Normandie comprenant y compris des musiciens
-                            comme chefs d'orchestre professionnels.</p>
-                        <p>Pour conclure la musique est ma passion et une manière de m'exprimer, de m'épanouir et de
-                            créer un équilibre dans mon quotidien. Que ce
-                            soit à travers la batterie, les percussions ou par la direction d'orchestre. Cette passion
-                            en effet me demande du temps et c'est pour ça que précédemment je parlais de gestion du
-                            temps car le temps est précieux et il faut s'organiser afin de pouvoir intégrer dans son
-                            quotidien des passions tel que la musique. Je recommande à chacun de consacrer du temps à la
-                            musique dans la semaine afin de souffler faire une pause voir se défouler, c'est à mon sens
-                            essenciel et j'espère que vous le partagerez.</p>
-                        <div class="imageCenter">
-                            <img src="dl-files/Capture d'écran 2023-07-26 113332.png" alt="Direction_orchestre"
-                                style="max-width: 50%;">
-                        </div>
-                        <p>Pour d'avantage d'informations sur cette association vous pouvez accéder aux lien ci-dessous.
-                        </p>
-                        <div class="buttons">
-                            <a
-                                href="https://www.criquetot-lesneval.fr/annuaire-des-associations/societe-musicale">Site_Web</a>
-                            <a href="https://www.facebook.com/SocieteMusicaleCriquetot/?locale=fr_FR">Facebook</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="separator"></div>
-
-    <section id="contact">
-        <div>
-            <h2>Contact</h2>
-            <p>paul.breon.pb@gmail.com</p>
-            <p>07 78 32 07 54</p>
-            <div class="buttons"><a href="dl-files/CV Paul Bréon.pdf" class="btn-cv">Mon CV</a>
-                <a href="https://github.com/PoloBrn" class="btn-github">GitHub</a>
-                <a href="https://www.linkedin.com/in/paul-br%C3%A9on-b7a083257/" class="btn-linkedin">LinkedIn</a>
+            <div class="project">
+                <h3>Escape Game VR (Collaboration with Louis Chochoy)</h3>
+                <p>An escape game in virtual reality to use virtual reality interactions and avatar management in virtual reality.</p>
+                
             </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>Droit d'auteur © 2023 Bréon Paul</p>
+        <p>© 2025 BREON Paul. All rights reserved.</p>
     </footer>
-</body>
-<script src="script.js"></script>
 
+    <script src="script.js"></script>
+</body>
 </html>
