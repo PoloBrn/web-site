@@ -33,6 +33,16 @@ a:hover {
     color: #4682b4;
 }
 
+video {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
 /* Navigation Bar */
 .navbar {
     position: fixed;
