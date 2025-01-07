@@ -12,6 +12,13 @@ body {
     line-height: 1.6;
 }
 
+content {
+    font-family: 'Montserrat', sans-serif;
+    color: #e4e4e4;
+    background-color: #121212;
+    line-height: 1.6;
+}
+
 h1, h2, h3 {
     font-weight: 700;
 }
@@ -65,12 +72,13 @@ a:hover {
 
 /* Home Section */
 .home {
-    background: url('dl-files/DALL·E\ 2025-01-07\ 11.11.21\ -\ A\ professional\ and\ artistic\ dark-themed\ background\ for\ a\ personal\ portfolio\ website.\ The\ image\ features\ a\ subtle\ gradient\ blending\ deep\ navy\ blue\ and\ .webp') no-repeat center center/cover;
+    background: url('dl-files/Font.webp') no-repeat center center/cover;
     color: #e4e4e4;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    position: relative; /* Required for pseudo-elements */
 }
 
 .home::before {
@@ -87,8 +95,13 @@ a:hover {
 .home .content {
     position: relative;
     z-index: 2;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
     animation: fadeIn 2s;
 }
+
 
 /* About Section */
 .about {
