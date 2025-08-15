@@ -22,3 +22,8 @@ const observer = new IntersectionObserver((entries) => {
 sections.forEach(section => {
     observer.observe(section);
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+        const video = document.getElementById('myVideo');
+        video.playbackRate = 0.5;
+    });
